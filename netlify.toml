@@ -1,0 +1,8 @@
+[build]
+  command = "npm run build"
+  publish = ".next"
+
+# The official Next.js runtime enables SSR, Server Actions, route handlers
+# and middleware on Netlify.
+[[plugins]]
+  package = "@netlify/plugin-nextjs"
